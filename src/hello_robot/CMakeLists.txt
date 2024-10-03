@@ -59,7 +59,6 @@ install(DIRECTORY
   meshes
   robot
   scripts
-  rviz
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()
