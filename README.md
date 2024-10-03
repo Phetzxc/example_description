@@ -3,7 +3,15 @@
 นี่คือตัวอย่างการแสดงภาพใน README:
 
 # 3 DOF ROBOT
+clone folder ลงไปหน้า home ใช้คำสั่งดังนี้:
 
+```bash
+cd
+git clone https://github.com/Phetzxc/example_description.git
+cd example_description
+colcon build
+source install/setup.bash
+```
 ## Part 1: Setup Environment (2 คะแนน)
 
 ### 1. หา workspace ของแขนกลพร้อมวิธีการตรวจสอบคําตอบ (1 คะแนน)
