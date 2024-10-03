@@ -37,7 +37,7 @@ class ModeServiceNode(Node):
         self.Kd = 0 
         self.integral_error = np.zeros(3) 
         self.prev_error = np.zeros(3) 
-        self.send_goal = True
+        self.send_goal = False
         self.movement_start_time = 0  
         self.movement_duration = 7.0  
         self.singularity_pub = self.create_publisher(String, '/singularity_warning', 10)
@@ -188,7 +188,7 @@ class ModeServiceNode(Node):
 
 
     def sim_loop(self):
-        if self.mode == 0 :
+        if self.mode == 0 and self.send_goal:
             self.Kp = 4 
             self.Ki = 0.01 
             self.Kd = 0.02 
@@ -370,6 +370,7 @@ class ModeServiceNode(Node):
                 response.q1sol.data = float(self.q_before[1])
                 response.q2sol.data = float(self.q_before[2])
                 response.ipk.data = 2
+                self.send_goal == False
         elif mode == 1:
             self.ref_mode = int(request.x.data)
             self.get_logger().info(f'Received Mode 1: ref_mode = {self.ref_mode}')
