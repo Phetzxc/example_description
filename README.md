@@ -8,6 +8,9 @@ clone folder ลงไปหน้า home ใช้คำสั่งดัง�
 ```bash
 cd
 git clone https://github.com/Phetzxc/example_description.git
+cd example_description
+colcon build
+source install/setup.bash
 ```
 ## Part 1: Setup Environment (2 คะแนน)
 
