@@ -354,7 +354,7 @@ class ModeServiceNode(Node):
             self.get_logger().info(f'Received {ik_solution.q}')
             # ik_solution = SE3(self.q_sol[0],self.q_sol[1],self.q_sol[2])
             pos = self.robot.fkine(ik_solution.q).t
-            if abs(pos[0]) - abs(x) <0.01 and abs(pos[1]) - abs(y)<0.01 and abs(pos[2]) - abs(z)<0.01 :
+            if abs(abs(pos[0]) - abs(x)) <0.01 and abs(abs(pos[1]) - abs(y))<0.01 and abs(abs(pos[2]) - abs(z))<0.01 :
             # if self.send_goal == True:
                 self.goal_position = np.array([x, y, z])
                 self.q_sol, *_ = self.robot.ikine_LM(matrix, q0=self.q_now, tol=1e-6)

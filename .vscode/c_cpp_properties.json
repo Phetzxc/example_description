@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/phet/ros2_ws/install/turtlesim_plus_interfaces/include/**",
+        "/home/phet/ros2_ws/install/controller_interfaces/include/**",
+        "/home/phet/example_description/install/lab1_interfaces/include/**",
+        "/home/phet/robot_modelling/install/mycobot_gazebo/include/**",
+        "/home/phet/robot_modelling/src/mycobot_ros2/install/mycobot_gazebo/include/**",
+        "/home/phet/Exam1_ws/install/turtlesim_plus_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/phet/Documents/GitHub/example_description/src/hello_robot/include/**",
+        "/home/phet/Documents/GitHub/example_description/src/lab1_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

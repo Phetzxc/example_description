@@ -1,3 +1,39 @@
 {
-    "ros.distro": "humble"
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/phet/ros2_ws/install/turtlesim_plus_interfaces/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/turtlesim_plus/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/turtle_bringup_v2/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/turtle_bringup/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/lab1/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/exam1_turtle/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages",
+        "/home/phet/example_description/install/lab1_interfaces/local/lib/python3.10/dist-packages",
+        "/home/phet/example_description/install/example_description/local/lib/python3.10/dist-packages",
+        "/home/phet/exam1_turtle/install/exam1_turtle/local/lib/python3.10/dist-packages",
+        "/home/phet/Exam1_ws/install/turtlesim_plus_interfaces/local/lib/python3.10/dist-packages",
+        "/home/phet/Exam1_ws/install/turtlesim_plus/local/lib/python3.10/dist-packages",
+        "/home/phet/Exam1_ws/install/exam1_turtle/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/phet/ros2_ws/install/turtlesim_plus_interfaces/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/turtlesim_plus/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/turtle_bringup_v2/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/turtle_bringup/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/lecture2/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/lab1/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/exam1_turtle/local/lib/python3.10/dist-packages",
+        "/home/phet/ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages",
+        "/home/phet/example_description/install/lab1_interfaces/local/lib/python3.10/dist-packages",
+        "/home/phet/example_description/install/example_description/local/lib/python3.10/dist-packages",
+        "/home/phet/exam1_turtle/install/exam1_turtle/local/lib/python3.10/dist-packages",
+        "/home/phet/Exam1_ws/install/turtlesim_plus_interfaces/local/lib/python3.10/dist-packages",
+        "/home/phet/Exam1_ws/install/turtlesim_plus/local/lib/python3.10/dist-packages",
+        "/home/phet/Exam1_ws/install/exam1_turtle/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
 }
