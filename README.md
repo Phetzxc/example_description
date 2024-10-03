@@ -6,7 +6,8 @@
 clone folder ลงไปหน้า home ใช้คำสั่งดังนี้:
 
 ```bash
-git clone 
+cd
+git clone https://github.com/Phetzxc/example_description.git
 ```
 ## Part 1: Setup Environment (2 คะแนน)
 
